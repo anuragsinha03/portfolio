@@ -3,7 +3,7 @@ function Logo() {
 		<div>
 			<a href='#'>
 				{" "}
-				<div className='sarina-regular text-[36px] text-[#edca2a]'>
+				<div className='sarina-regular text-[28px] md:text-[36px] text-[#edca2a]'>
 					Anurag
 				</div>
 			</a>

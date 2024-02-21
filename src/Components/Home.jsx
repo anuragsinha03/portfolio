@@ -3,7 +3,6 @@ import Footer from "./Footer";
 import Hero from "./Hero";
 import Projects from "./Projects";
 import Skills from "./Skills";
-import Social from "./Social";
 
 function Home() {
 	return (

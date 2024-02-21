@@ -1,7 +1,7 @@
 function Footer() {
 	return (
 		<div className='w-full'>
-			<footer className='border-t-2 py-4 text-center'>
+			<footer className='text-[12px] md:text-[16px] border-t-2 py-4 text-center'>
 				Made with 🤍 |{" "}
 				<a
 					className='hover:underline'

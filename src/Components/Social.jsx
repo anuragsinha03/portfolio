@@ -9,7 +9,7 @@ function Social() {
 				<a href='mailto:anuraagrk4@gmail.com'>
 					{" "}
 					<img
-						className='w-[40px] h-[40px]'
+						className='h-[30px] w-[30px] md:w-[40px] md:h-[40px]'
 						src={email}
 						alt=''
 					/>
@@ -19,7 +19,7 @@ function Social() {
 				<a href='https://www.linkedin.com/in/anuragsinha03/'>
 					{" "}
 					<img
-						className='w-[40px] h-[40px]'
+						className='h-[30px] w-[30px] md:w-[40px] md:h-[40px]'
 						src={linkedin}
 						alt=''
 					/>
@@ -30,7 +30,7 @@ function Social() {
 				<a href='https://github.com/anuragsinha03'>
 					{" "}
 					<img
-						className='w-[40px] h-[40px]'
+						className='h-[30px] w-[30px] md:w-[40px] md:h-[40px]'
 						src={github}
 						alt=''
 					/>

@@ -1,25 +1,25 @@
 import OutlinedBtn from "./OutlinedBtn";
-import heroImg from "./../../public/images/skillsHero.gif";
+import heroImg from "./../../public/images/hero.gif";
 import Social from "./Social";
 
 function Hero() {
 	return (
 		<section
-			className='flex justify-around items-center h-[90vh]'
+			className='flex flex-col-reverse md:flex-row justify-around items-center h-[90vh]'
 			id='home'>
-			<div className='w-[40%] flex flex-col gap-[20px]'>
+			<div className='w-[90%] md:w-[40%] flex flex-col gap-[20px]'>
 				<div>
-					<p className='text-[24px] font-medium'>
+					<p className='text-[16px] md:text-[24px] font-medium'>
 						Hi, I am Anurag Sinha
 						<span className='wave'>👋🏻</span>
 					</p>
-					<p className='text-[40px] font-medium'>
+					<p className='text-[24px] md:text-[40px] font-medium'>
 						I am a{" "}
 						<span className='text-[#edca2a]'>Web developer</span>
 					</p>
 				</div>
 
-				<p>
+				<p className='text-[14px]'>
 					&quot;Crafting digital experiences through elegant design
 					and robust development. Passionate about creating intuitive
 					user interfaces and engaging user experiences. Leveraging
@@ -27,8 +27,7 @@ function Hero() {
 					Dedicated to continuous learning and pushing boundaries.
 					Let&apos;s collaborate and bring your vision to life!&quot;
 				</p>
-
-				<div className='flex gap-[10px] '>
+				<div className='flex flex-col md:flex-row gap-[10px] '>
 					<a
 						href='https://drive.google.com/file/d/14WLe_bifwuyY7sFhnoDzFf-fBe5uhUb0/view?usp=drive_link'
 						download>
@@ -46,7 +45,7 @@ function Hero() {
 
 			<div className='flex justify-center items-center '>
 				<img
-					className='h-[600px] w-[600px]'
+					className='h-[300px] w-[300px] md:h-[600px] md:w-[600px]'
 					src={heroImg}
 					alt=''
 				/>
