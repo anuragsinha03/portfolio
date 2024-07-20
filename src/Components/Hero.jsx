@@ -1,13 +1,13 @@
 import OutlinedBtn from "./OutlinedBtn";
-import heroImg from "./../../public/images/hero-cropper.gif";
+import heroImg from "./../../public/images/hero.gif";
 import Social from "./Social";
 
 function Hero() {
 	return (
 		<section
-			className='flex flex-col-reverse md:flex-row justify-around items-center h-[90vh]'
+			className='flex flex-col-reverse md:flex-row justify-around items-center md:h-[90vh]'
 			id='home'>
-			<div className='w-[90%] md:w-[40%] flex flex-col gap-[20px]'>
+			<div className='w-[90%]  md:w-[40%] flex flex-col gap-[20px]'>
 				<div>
 					<p className='text-[16px] md:text-[24px] font-medium'>
 						Hi, I am Anurag Sinha
@@ -45,7 +45,7 @@ function Hero() {
 				</div>
 			</div>
 
-			<div className='flex justify-center items-center '>
+			<div className='flex justify-center items-center'>
 				<img
 					className='h-[300px] w-[300px] md:h-[600px] md:w-[600px]'
 					src={heroImg}
