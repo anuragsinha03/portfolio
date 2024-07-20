@@ -1,5 +1,5 @@
 import OutlinedBtn from "./OutlinedBtn";
-import heroImg from "./../../public/images/hero.gif";
+import heroImg from "./../../public/images/hero-cropper.gif";
 import Social from "./Social";
 
 function Hero() {
