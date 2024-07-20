@@ -15,7 +15,9 @@ function Hero() {
 					</p>
 					<p className='text-[24px] md:text-[40px] font-medium'>
 						I am a{" "}
-						<span className='text-[#edca2a]'>Web developer</span>
+						<span className='text-[#edca2a]'>
+							Software Developer
+						</span>
 					</p>
 				</div>
 
@@ -29,7 +31,7 @@ function Hero() {
 				</p>
 				<div className='flex flex-col md:flex-row gap-[10px] '>
 					<a
-						href='https://drive.google.com/file/d/14WLe_bifwuyY7sFhnoDzFf-fBe5uhUb0/view?usp=drive_link'
+						href='https://drive.google.com/file/d/1cbSfm4-eA9fxP6GIadJmOIiwbSfxvgMH/view'
 						download>
 						<OutlinedBtn btnText='RESUME' />
 					</a>

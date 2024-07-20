@@ -1,4 +1,31 @@
+import { useNavigate } from "react-router-dom";
+import emailjs from "emailjs-com";
+
 function Contact() {
+	const navigate = useNavigate();
+
+	const sendEmail = e => {
+		e.preventDefault();
+
+		emailjs
+			.sendForm(
+				"service_q9p54a8",
+				"template_0p5spc6",
+				e.target,
+				"MmZTDeDK-Kj4EneIh"
+			)
+			.then(
+				result => {
+					console.log(result.text);
+					navigate("/thank-you");
+				},
+				error => {
+					console.log(error.text);
+					alert("Failed to send message.");
+				}
+			);
+	};
+
 	return (
 		<section
 			className='flex flex-col justify-center items-center gap-[50px] h-screen'
@@ -9,14 +36,16 @@ function Contact() {
 					Reach out to me via a message
 				</p>
 			</div>
-			<form action=''>
+			<form onSubmit={sendEmail}>
 				<div className='flex flex-col justify-center items-center gap-[10px]'>
 					<div className='flex flex-col w-[300px] md:w-[500px]'>
-						<label htmlFor='username'>NAME</label>
+						<label htmlFor='name'>NAME</label>
 						<input
 							className='h-[35px] bg-[#002244] border-[1px] p-[10px]'
 							type='text'
-							id='username'
+							id='name'
+							name='name'
+							required
 						/>
 					</div>
 
@@ -26,6 +55,8 @@ function Contact() {
 							className='h-[35px] bg-[#002244] border-[1px] p-[10px]'
 							type='email'
 							id='email'
+							name='email'
+							required
 						/>
 					</div>
 
@@ -34,8 +65,10 @@ function Contact() {
 						<textarea
 							className='bg-[#002244] border-[1px] p-[10px]'
 							id='message'
+							name='message'
 							cols='20'
 							rows='10'
+							required
 						/>
 					</div>
 
