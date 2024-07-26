@@ -14,7 +14,7 @@ function Skills() {
 
 	return (
 		<section
-			className='flex flex-col justify-center items-center gap-[30px] h-screen'
+			className='flex flex-col justify-center items-center gap-[30px] mb-[5rem] md:min-h-[100vh]'
 			id='skills'>
 			<div>
 				<div className='text-[24px] md:text-[40px] text-center'>
@@ -28,7 +28,7 @@ function Skills() {
 			<div className='flex flex-col md:flex-row justify-around items-center gap-[20px] w-[80%]'>
 				<div className=''>
 					<img
-						className='h-[300px] w-[300px] md:h-[400px] md:w-[400px]'
+						className='h-[250px] w-[250px] md:h-[400px] md:w-[400px]'
 						src={skillsHero}
 						alt='Skills Hero'
 					/>

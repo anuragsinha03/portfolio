@@ -5,7 +5,7 @@ import Social from "./Social";
 function Hero() {
 	return (
 		<section
-			className='flex flex-col-reverse md:flex-row justify-around items-center md:h-[90vh]'
+			className='flex flex-col-reverse md:flex-row justify-around items-center mb-[5rem] md:min-h-[90vh]'
 			id='home'>
 			<div className='w-[90%]  md:w-[40%] flex flex-col gap-[20px]'>
 				<div>
@@ -47,7 +47,7 @@ function Hero() {
 
 			<div className='flex justify-center items-center'>
 				<img
-					className='h-[300px] w-[300px] md:h-[600px] md:w-[600px]'
+					className='h-[250px] w-[250px] md:h-[600px] md:w-[600px]'
 					src={heroImg}
 					alt=''
 				/>

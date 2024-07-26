@@ -17,10 +17,10 @@ function Projects() {
 				{projectsData.map((project, index) => (
 					<div
 						key={index}
-						className='flex flex-col justify-center items-center border-[1px] w-[300px] h-[400px] md:w-[350px] md:h-[500px] p-4 gap-[10px] hover:scale-[1.05] transition-transform duration-300 ease-out'>
+						className='flex flex-col justify-center items-center border-[1px] w-[300px] h-[420px] md:w-[350px] md:h-[500px] p-4 gap-[10px] hover:scale-[1.05] transition-transform duration-300 ease-out'>
 						<div>
 							<img
-								className='w-[150px] h-[150px]'
+								className='w-[8rem] h-[8rem]'
 								src={skillHero}
 								alt=''
 							/>
