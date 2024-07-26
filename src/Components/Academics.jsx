@@ -29,10 +29,12 @@ function Academics() {
 									<div className='text-lg'>
 										{academic.degreeName}
 									</div>
-									<span className='text-sm text-slate-400'>
-										{academic.institution} -{" "}
+									<div className='text-sm text-slate-400'>
+										{academic.institution}
+									</div>
+									<div className='text-sm text-slate-400'>
 										{academic.batch}
-									</span>
+									</div>
 								</div>
 								<button
 									className='text-blue-500'
