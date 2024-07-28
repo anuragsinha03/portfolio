@@ -23,7 +23,7 @@ export const projectsData = [
 		subtitle: "an online learning solution",
 		description:
 			"Online learning platform using React, Node.js, MongoDB, and OpenAI API. Features secure authentication, messaging, video calling, grammar correction, and note summarization.",
-		github: "https://github.com/anuragsinha03/apnividya",
-		production: "",
+		github: "https://github.com/anuragsinha03/apnividya-server",
+		production: "https://apnividya-beta.vercel.app/",
 	},
 ];
