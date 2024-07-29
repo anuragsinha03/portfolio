@@ -13,9 +13,9 @@ export const projectsData = [
 		name: "Credity",
 		subtitle: "a credit rating model",
 		description:
-			"Credit rating model using Flask, Django, Pandas, and Scikit-learn. Achieved 85% accuracy with a Random Forest Classifier after thorough preprocessing.",
-		github: "https://github.com/anuragsinha03/credity",
-		production: "",
+			"Credit rating model using Flask, Pandas, and Scikit-learn. Achieved 85% accuracy with a Random Forest Classifier after thorough preprocessing.",
+		github: "https://github.com/anuragsinha03/credity-rf",
+		production: "https://credity.onrender.com/",
 	},
 	{
 		img: "",

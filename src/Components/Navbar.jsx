@@ -48,7 +48,7 @@ function Navbar() {
 						CONTACT
 					</a>
 					<a
-						href='https://drive.google.com/file/d/1cbSfm4-eA9fxP6GIadJmOIiwbSfxvgMH/view'
+						href='https://drive.google.com/file/d/1nFJiTiQrxP-DFcFQyzD7PTpgMIZfowmF/view?usp=drive_link'
 						download>
 						<OutlinedBtn btnText='RESUME' />
 					</a>

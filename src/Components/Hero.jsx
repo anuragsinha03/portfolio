@@ -31,7 +31,7 @@ function Hero() {
 				</p>
 				<div className='flex flex-col md:flex-row gap-[10px] '>
 					<a
-						href='https://drive.google.com/file/d/1cbSfm4-eA9fxP6GIadJmOIiwbSfxvgMH/view'
+						href='https://drive.google.com/file/d/1nFJiTiQrxP-DFcFQyzD7PTpgMIZfowmF/view?usp=drive_link'
 						download>
 						<OutlinedBtn btnText='RESUME' />
 					</a>
