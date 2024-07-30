@@ -13,6 +13,13 @@
   font-style: normal;
 }
 
+.max-width-container {
+    --max-width: 1440px;
+    --padding: 5.5rem;
+    width: min(var(--max-width), 100% - var(--padding));
+    margin-inline: auto;
+}
+
 
 @keyframes wave-animation {
   0%, 100% { transform: rotate(0deg); }

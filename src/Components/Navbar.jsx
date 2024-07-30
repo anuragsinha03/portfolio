@@ -20,7 +20,7 @@ function Navbar() {
 	}, [isMobileMenuOpen]);
 
 	return (
-		<div>
+		<div className='max-width-container'>
 			{/* Desktop View */}
 			<nav className='hidden sm:flex items-center justify-around bg-[#002244]/[.25] h-[100px]'>
 				<div>

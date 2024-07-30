@@ -14,7 +14,7 @@ function Skills() {
 
 	return (
 		<section
-			className='flex flex-col justify-center items-center gap-[30px] mb-[5rem] md:min-h-[100vh]'
+			className='max-width-container flex flex-col justify-center items-center gap-[30px] mb-[5rem] md:min-h-[100vh]'
 			id='skills'>
 			<div>
 				<div className='text-[24px] md:text-[40px] text-center'>
