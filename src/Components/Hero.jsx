@@ -5,7 +5,7 @@ import Social from "./Social";
 function Hero() {
 	return (
 		<section
-			className='max-width-container flex flex-col-reverse md:flex-row justify-around items-center mb-[5rem] md:min-h-[90vh]'
+			className='flex flex-col-reverse md:flex-row justify-around items-center mb-[5rem] md:min-h-[90vh]'
 			id='home'>
 			<div className='w-[90%]  md:w-[40%] flex flex-col gap-[20px]'>
 				<div>
