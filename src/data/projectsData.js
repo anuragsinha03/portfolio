@@ -22,7 +22,7 @@ export const projectsData = [
 		name: "ApniVidya",
 		subtitle: "an online learning solution",
 		description:
-			"Online learning platform using React, Node.js, MongoDB, and OpenAI API. Features secure authentication, messaging, video calling, grammar correction, and note summarization.",
+			"Online learning platform using React, Node.js, MongoDB, and OpenAI API. Features secure authentication, text messaging, grammar correction, and note summarization.",
 		github: "https://github.com/anuragsinha03/apnividya-server",
 		production: "https://apnividya-beta.vercel.app/",
 	},
