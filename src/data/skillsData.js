@@ -8,6 +8,7 @@ import mongo from "./../../public/images/mongo.png";
 import mongoose from "./../../public/images/mongoose.png";
 import tailwind from "./../../public/images/tailwind.png";
 import postman from "./../../public/images/postman.png";
+import docker from "./../../public/images/docker.png";
 
 export const skillsData = [
 	{ image: `${html}` },
@@ -20,4 +21,5 @@ export const skillsData = [
 	{ image: `${mongoose}` },
 	{ image: `${tailwind}` },
 	{ image: `${postman}` },
+	{ image: `${docker}` },
 ];
